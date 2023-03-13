@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.container {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #150b3e;
+  color: white;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.name-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  margin-right: 20px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.para-1 {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.para-2 {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.para-3 {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.para-4 {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.para-5 {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.withdraw-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
